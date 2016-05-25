@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HSCalculate.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSInteger i = [HSCalculate sumNum1:2 num2:3];
 }
 
 - (void)didReceiveMemoryWarning {

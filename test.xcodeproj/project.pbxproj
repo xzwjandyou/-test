@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		368727EB1CF540D1001FE1C5 /* EncryptUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368727EA1CF540D1001FE1C5 /* EncryptUtil.m */; };
 		36F5405D1CF2E62500E9855D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5405C1CF2E62500E9855D /* main.m */; };
 		36F540601CF2E62500E9855D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5405F1CF2E62500E9855D /* AppDelegate.m */; };
 		36F540631CF2E62500E9855D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F540621CF2E62500E9855D /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		36F5406B1CF2E62500E9855D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F540691CF2E62500E9855D /* LaunchScreen.storyboard */; };
 		36F540761CF2E62500E9855D /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F540751CF2E62500E9855D /* testTests.m */; };
 		36F540811CF2E62500E9855D /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F540801CF2E62500E9855D /* testUITests.m */; };
+		36F540901CF2E65D00E9855D /* firstlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F5408F1CF2E65D00E9855D /* firstlib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		368727E91CF540D1001FE1C5 /* EncryptUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptUtil.h; sourceTree = "<group>"; };
+		368727EA1CF540D1001FE1C5 /* EncryptUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptUtil.m; sourceTree = "<group>"; };
 		36F540581CF2E62500E9855D /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F5405C1CF2E62500E9855D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36F5405E1CF2E62500E9855D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		36F5407C1CF2E62500E9855D /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F540801CF2E62500E9855D /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		36F540821CF2E62500E9855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F5408E1CF2E63400E9855D /* HSCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCalculate.h; sourceTree = "<group>"; };
+		36F5408F1CF2E65D00E9855D /* firstlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = firstlib.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F540901CF2E65D00E9855D /* firstlib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		368727E81CF540D1001FE1C5 /* TGdemo */ = {
+			isa = PBXGroup;
+			children = (
+				368727E91CF540D1001FE1C5 /* EncryptUtil.h */,
+				368727EA1CF540D1001FE1C5 /* EncryptUtil.m */,
+			);
+			path = TGdemo;
+			sourceTree = "<group>";
+		};
 		36F5404F1CF2E62500E9855D = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +121,9 @@
 				36F5405F1CF2E62500E9855D /* AppDelegate.m */,
 				36F540611CF2E62500E9855D /* ViewController.h */,
 				36F540621CF2E62500E9855D /* ViewController.m */,
+				36F5408E1CF2E63400E9855D /* HSCalculate.h */,
+				36F5408F1CF2E65D00E9855D /* firstlib.a */,
+				368727E81CF540D1001FE1C5 /* TGdemo */,
 				36F540641CF2E62500E9855D /* Main.storyboard */,
 				36F540671CF2E62500E9855D /* Assets.xcassets */,
 				36F540691CF2E62500E9855D /* LaunchScreen.storyboard */,
@@ -276,6 +295,7 @@
 				36F540631CF2E62500E9855D /* ViewController.m in Sources */,
 				36F540601CF2E62500E9855D /* AppDelegate.m in Sources */,
 				36F5405D1CF2E62500E9855D /* main.m in Sources */,
+				368727EB1CF540D1001FE1C5 /* EncryptUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +440,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dd.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -431,6 +455,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dd.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -501,6 +529,7 @@
 				36F540871CF2E62500E9855D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36F540881CF2E62500E9855D /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +538,7 @@
 				36F5408A1CF2E62500E9855D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36F5408B1CF2E62500E9855D /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +547,7 @@
 				36F5408D1CF2E62500E9855D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
